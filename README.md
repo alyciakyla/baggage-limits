@@ -1,126 +1,83 @@
 # Baggage Limits
 
-Airline baggage allowance data for **48 major airlines** worldwide — available as a programmatic Node.js API and a command-line tool. Zero dependencies, works offline.
+> Know your baggage allowance before you fly.
 
-All data sourced and regularly verified from [baggagelimits.co](https://baggagelimits.co).
+**[baggagelimits.co](https://baggagelimits.co)** is the most comprehensive airline baggage reference on the web — covering **48 major airlines**, **50+ countries**, and available in **6 languages**. Whether you're a frequent flyer, a first-time traveler, or building a travel product, we have the data you need.
 
-## Why?
+---
 
-Building a travel app, flight comparison tool, or packing assistant? Baggage rules are scattered across dozens of airline websites, each with different formats. This package gives you **structured, consistent data** for carry-on limits, checked baggage allowances, personal item rules, and excess fees — all in one place, ready to use.
+## What is baggagelimits.co?
 
-## Install
+[baggagelimits.co](https://baggagelimits.co) answers the questions every traveler asks before a flight:
+
+- **How heavy can my carry-on be?**
+- **What are the size limits for cabin baggage?**
+- **How many checked bags can I bring?**
+- **What happens if my bag is overweight?**
+- **What's the difference between Economy and Business?**
+
+We track carry-on rules, checked baggage allowances, personal item policies, and excess baggage fees for every major airline — all in one place, updated regularly, and verified against official airline sources.
+
+### Airlines We Cover
+
+We track baggage policies for **48 airlines** across all three major alliances and independent carriers:
+
+| Alliance | Airlines |
+|----------|----------|
+| **Star Alliance** | Aegean Airlines, Air Canada, Air New Zealand, ANA, EVA Air, Finnair, Lufthansa, SAS, Singapore Airlines, Swiss, TAP Air Portugal, Turkish Airlines, United Airlines |
+| **oneworld** | Alaska Airlines, American Airlines, British Airways, Cathay Pacific, Iberia, Japan Airlines, Malaysia Airlines, Qantas, Qatar Airways |
+| **SkyTeam** | Aeroflot, Air France, China Southern, Delta, KLM, Korean Air, LATAM Airlines, Saudia |
+| **Independent / LCC** | Air Arabia, EasyJet, Emirates, Etihad, Flydubai, Hawaiian Airlines, IndiGo, JetBlue, Norwegian, Oman Air, Pegasus, Ryanair, Southwest, Spirit, Virgin Atlantic, Vueling, Wizz Air |
+
+### Available Languages
+
+| Language | URL |
+|----------|-----|
+| English | [baggagelimits.co](https://baggagelimits.co) |
+| Turkish | [baggagelimits.co/tr](https://baggagelimits.co/tr) |
+| Spanish | [baggagelimits.co/es](https://baggagelimits.co/es) |
+| French | [baggagelimits.co/fr](https://baggagelimits.co/fr) |
+| German | [baggagelimits.co/de](https://baggagelimits.co/de) |
+| Arabic | [baggagelimits.co/ar](https://baggagelimits.co/ar) |
+
+---
+
+## npm Package
+
+All the data from [baggagelimits.co](https://baggagelimits.co) is also available as an npm package for developers. Zero dependencies, works offline, includes a CLI.
 
 ```bash
 npm install baggage-limits
 ```
 
-Or run the CLI directly without installing:
-
-```bash
-npx baggage-limits --airline TK
-```
-
-## API Usage
+### Quick Example
 
 ```js
 const baggage = require('baggage-limits');
-```
 
-### Get all airlines
-
-```js
-const airlines = baggage.getAll();
-console.log(airlines.length); // 48
-```
-
-### Look up a specific airline
-
-Search by **IATA code** or **full airline name** (case-insensitive):
-
-```js
+// Look up any airline by name or IATA code
 const tk = baggage.getAirline('TK');
-// or
-const tk = baggage.getAirline('Turkish Airlines');
+console.log(tk.carryOn.weight);   // { kg: 8, lb: 17.6 }
+console.log(tk.carryOn.dimensions); // { cm: '55x40x23', in: '21.7x15.7x9' }
 
-console.log(tk.carryOn.weight);      // { kg: 8, lb: 17.6 }
-console.log(tk.carryOn.dimensions);  // { cm: '55x40x23', in: '21.7x15.7x9' }
-console.log(tk.checked.economy);     // { pieces: 1, weight: { kg: 23, lb: 50.7 }, dimensions: { cm: '158 total', in: '62 total' } }
-console.log(tk.checked.business);    // { pieces: 2, weight: { kg: 32, lb: 70.6 }, dimensions: { cm: '158 total', in: '62 total' } }
-console.log(tk.excessFee);           // { currency: 'USD', amount: 8 }
+// Search airlines
+baggage.search('air');  // Air Arabia, Air Canada, Air France, ...
 
-// Returns null if airline is not found
-baggage.getAirline('FakeAirline'); // null
-```
+// Filter by alliance
+baggage.getByAlliance('Star Alliance');
 
-### Search airlines
+// Filter by carry-on weight
+baggage.filterByCarryOnWeight(10); // Airlines allowing 10kg+ carry-on
 
-Partial, case-insensitive text search across airline names and codes:
-
-```js
-baggage.search('air');
-// Returns: Air Arabia, Air Canada, Air France, Air New Zealand, ...
-
-baggage.search('wizz');
-// Returns: [{ name: 'Wizz Air', code: 'W6', ... }]
-```
-
-### Filter by alliance
-
-```js
-const starAlliance = baggage.getByAlliance('Star Alliance');
-// Turkish Airlines, Lufthansa, ANA, Singapore Airlines, United, ...
-
-const oneworld = baggage.getByAlliance('oneworld');
-// American Airlines, British Airways, Cathay Pacific, Qantas, ...
-
-const skyteam = baggage.getByAlliance('SkyTeam');
-// Air France, Delta, KLM, Korean Air, ...
-```
-
-### Filter by carry-on weight limit
-
-Find airlines that allow at least a given weight in the cabin:
-
-```js
-const generous = baggage.filterByCarryOnWeight(10);
-// Airlines allowing 10 kg or more as carry-on
-// Aegean (13kg), Aeroflot (10kg), American Airlines (18kg), ...
-```
-
-### Multi-language support
-
-Labels and headers can be displayed in 6 languages:
-
-| Code | Language |
-|------|----------|
-| `en` | English (default) |
-| `tr` | Turkish |
-| `es` | Spanish |
-| `fr` | French |
-| `de` | German |
-| `ar` | Arabic |
-
-&nbsp;
-
-```js
+// Multi-language labels
 baggage.setLocale('tr');
-console.log(baggage.getLocale());  // 'tr'
-
-const labels = baggage.getLabels();
-console.log(labels.carryOn);       // 'Kabin Bagajı'
-console.log(labels.checked);       // 'Kayıtlı Bagaj'
-console.log(labels.excessFee);     // 'Fazla Bagaj Ücreti'
-
-// Unsupported locales are silently ignored
-baggage.setLocale('xx'); // locale stays unchanged
+baggage.getLabels().carryOn; // 'Kabin Bagaji'
 ```
 
-## CLI Usage
-
-### Look up an airline
+### CLI
 
 ```bash
-$ baggage-limits --airline TK
+$ npx baggage-limits --airline TK
 
 ✈ Turkish Airlines (TK) — Star Alliance
 
@@ -136,124 +93,50 @@ Excess Fee: USD 8
 Website: https://www.turkishairlines.com
 ```
 
-### List all airlines
-
 ```bash
-$ baggage-limits --list
-
-All Airlines (48):
-
-+-------------------------------+------+---------------+
-| Airline                       | Code | Alliance      |
-+-------------------------------+------+---------------+
-| Aegean Airlines               | A3   | Star Alliance |
-| Aeroflot                      | SU   | SkyTeam       |
-| Air Arabia                    | G9   | -             |
-| ...                           | ...  | ...           |
-+-------------------------------+------+---------------+
+baggage-limits --list                      # List all 48 airlines
+baggage-limits --search wizz               # Search by name
+baggage-limits --alliance "Star Alliance"  # Filter by alliance
+baggage-limits --airline TK --json         # JSON output
+baggage-limits --airline TK --locale tr    # Turkish labels
 ```
 
-### Search, filter, and more
+### Data Per Airline
 
-```bash
-# Search by partial name
-baggage-limits --search united
+Each airline record includes:
 
-# Filter by alliance
-baggage-limits --alliance "Star Alliance"
+| Field | Description |
+|-------|-------------|
+| `name` | Full airline name |
+| `code` | IATA airline code |
+| `alliance` | Star Alliance, oneworld, SkyTeam, or null |
+| `carryOn` | Weight (kg/lb) and dimensions (cm/in) |
+| `personalItem` | Weight and dimensions, or null |
+| `checked.economy` | Pieces, weight, and max dimensions |
+| `checked.business` | Pieces, weight, and max dimensions |
+| `excessFee` | Currency and amount, or null |
+| `website` | Official airline baggage policy page |
 
-# Display in Turkish
-baggage-limits --airline TK --locale tr
+Full API documentation available on [npm](https://www.npmjs.com/package/baggage-limits).
 
-# Get raw JSON (great for piping to jq or other tools)
-baggage-limits --airline TK --json
+---
 
-# Show help
-baggage-limits --help
-```
-
-### All CLI flags
-
-| Flag | Short | Description |
-|------|-------|-------------|
-| `--airline <name\|code>` | `-a` | Look up an airline by name or IATA code |
-| `--list` | `-l` | List all 48 airlines |
-| `--alliance <name>` | | Filter airlines by alliance name |
-| `--search <query>` | `-s` | Search airlines by partial name match |
-| `--locale <code>` | | Set output language (`en`, `tr`, `es`, `fr`, `de`, `ar`) |
-| `--json` | | Output results as raw JSON |
-| `--help` | `-h` | Show help message |
-| `--version` | `-v` | Show package version |
-
-## Data Schema
-
-Each airline record contains the following fields:
-
-```js
-{
-  name: 'Turkish Airlines',       // Full airline name
-  code: 'TK',                     // IATA airline code
-  alliance: 'Star Alliance',      // Alliance name or null
-
-  carryOn: {
-    weight: { kg: 8, lb: 17.6 },           // Cabin bag weight limit
-    dimensions: { cm: '55x40x23', in: '21.7x15.7x9' }  // LxWxH
-  },
-
-  personalItem: {                  // null if not separately defined
-    weight: { kg: 4, lb: 8.8 },
-    dimensions: { cm: '40x30x15', in: '15.7x11.8x5.9' }
-  },
-
-  checked: {
-    economy: {
-      pieces: 1,                   // Number of bags included
-      weight: { kg: 23, lb: 50.7 },
-      dimensions: { cm: '158 total', in: '62 total' }  // L+W+H
-    },
-    business: {
-      pieces: 2,
-      weight: { kg: 32, lb: 70.6 },
-      dimensions: { cm: '158 total', in: '62 total' }
-    }
-  },
-
-  excessFee: {                     // null if not available
-    currency: 'USD',
-    amount: 8                      // Per-unit fee
-  },
-
-  website: 'https://www.turkishairlines.com'  // Airline baggage policy page
-}
-```
-
-## Airlines Covered
-
-48 airlines across all three major alliances and independent carriers:
-
-**Star Alliance:** Aegean Airlines, Air Canada, Air New Zealand, ANA, EVA Air, Finnair, Lufthansa, SAS, Singapore Airlines, Swiss, TAP Air Portugal, Turkish Airlines, United Airlines
-
-**oneworld:** Alaska Airlines, American Airlines, British Airways, Cathay Pacific, Iberia, Japan Airlines, Malaysian Airlines, Qantas, Qatar Airways
-
-**SkyTeam:** Aeroflot, Air France, China Southern, Delta, KLM, Korean Air, Saudia, Vietnam Airlines (via LATAM)
-
-**Independent / LCC:** Air Arabia, EasyJet, Emirates, Etihad, Flydubai, Hawaiian Airlines, IndiGo, JetBlue, Norwegian, Oman Air, Pegasus, Ryanair, Southwest, Spirit, Virgin Atlantic, Vueling, Wizz Air
-
-## Use Cases
+## Who Uses This?
 
 - **Travel apps** — Show passengers their baggage allowance during booking
 - **Packing assistants** — Help travelers know weight/size limits before they pack
 - **Flight comparison tools** — Compare baggage policies side by side
-- **Airport kiosks** — Quick lookup for check-in staff
-- **CLI power users** — Check limits before heading to the airport
-- **Chatbots & AI agents** — Provide structured airline data in conversational UIs
+- **Airport kiosks and check-in systems** — Quick baggage lookup for staff
+- **Chatbots and AI agents** — Provide structured airline data in conversational UIs
+- **Developers and CLI power users** — Check limits right from the terminal
+
+---
+
+## Links
+
+- **Website:** [baggagelimits.co](https://baggagelimits.co)
+- **npm:** [npmjs.com/package/baggage-limits](https://www.npmjs.com/package/baggage-limits)
 
 ## License
 
 MIT
-
-## Links
-
-- Data source: [baggagelimits.co](https://baggagelimits.co)
-- npm: [npmjs.com/package/baggage-limits](https://www.npmjs.com/package/baggage-limits)
-- Issues & contributions welcome
