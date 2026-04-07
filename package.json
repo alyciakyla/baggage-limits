@@ -1,0 +1,37 @@
+{
+  "name": "baggage-limits",
+  "version": "1.0.1",
+  "description": "Airline baggage limits data for 48+ airlines — programmatic API and CLI",
+  "main": "src/index.js",
+  "bin": {
+    "baggage-limits": "src/cli.js"
+  },
+  "scripts": {
+    "test": "node test/index.test.js && node test/cli.test.js"
+  },
+  "keywords": [
+    "baggage",
+    "luggage",
+    "airline",
+    "travel",
+    "carry-on",
+    "checked-baggage",
+    "flight",
+    "aviation",
+    "baggage-limits",
+    "airline-baggage"
+  ],
+  "author": "",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/alyciakyla/baggage-limits.git"
+  },
+  "homepage": "https://baggagelimits.co",
+  "files": [
+    "src/",
+    "data/",
+    "README.md",
+    "LICENSE"
+  ]
+}

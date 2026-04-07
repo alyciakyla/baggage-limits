@@ -1,0 +1,2131 @@
+[
+  {
+    "name": "Aegean Airlines",
+    "code": "A3",
+    "alliance": "Star Alliance",
+    "carryOn": {
+      "weight": {
+        "kg": 13,
+        "lb": 28.6
+      },
+      "dimensions": {
+        "cm": "56x45x25",
+        "in": "22x17.7x9.8"
+      }
+    },
+    "personalItem": null,
+    "checked": {
+      "economy": {
+        "pieces": 1,
+        "weight": {
+          "kg": 22.7,
+          "lb": 50
+        },
+        "dimensions": {
+          "cm": "158 total",
+          "in": "62 total"
+        }
+      },
+      "business": {
+        "pieces": 2,
+        "weight": {
+          "kg": 31.7,
+          "lb": 70
+        },
+        "dimensions": {
+          "cm": "158 total",
+          "in": "62 total"
+        }
+      }
+    },
+    "excessFee": {
+      "currency": "EUR",
+      "amount": 15
+    },
+    "website": "https://en.aegeanair.com"
+  },
+  {
+    "name": "Aeroflot",
+    "code": "SU",
+    "alliance": "SkyTeam",
+    "carryOn": {
+      "weight": {
+        "kg": 10,
+        "lb": 22
+      },
+      "dimensions": {
+        "cm": "55x40x25",
+        "in": "21.7x15.7x9.8"
+      }
+    },
+    "personalItem": {
+      "weight": {
+        "kg": 5,
+        "lb": 11
+      }
+    },
+    "checked": {
+      "economy": {
+        "pieces": 1,
+        "weight": {
+          "kg": 22.7,
+          "lb": 50
+        },
+        "dimensions": {
+          "cm": "158 total",
+          "in": "62 total"
+        }
+      },
+      "business": {
+        "pieces": 2,
+        "weight": {
+          "kg": 31.7,
+          "lb": 70
+        },
+        "dimensions": {
+          "cm": "158 total",
+          "in": "62 total"
+        }
+      }
+    },
+    "excessFee": null,
+    "website": "https://www.aeroflot.ru"
+  },
+  {
+    "name": "Air Arabia",
+    "code": "G9",
+    "alliance": null,
+    "carryOn": {
+      "weight": {
+        "kg": 7,
+        "lb": 15.4
+      },
+      "dimensions": {
+        "cm": "55x40x20",
+        "in": "22x16x8"
+      }
+    },
+    "personalItem": {
+      "dimensions": {
+        "cm": "25x33x20",
+        "in": "10x13x8"
+      }
+    },
+    "checked": {
+      "economy": {
+        "pieces": 1,
+        "weight": {
+          "kg": 20,
+          "lb": 44
+        }
+      },
+      "business": {
+        "pieces": 2,
+        "weight": {
+          "kg": 20,
+          "lb": 44
+        }
+      }
+    },
+    "excessFee": null,
+    "website": "https://www.airarabia.com"
+  },
+  {
+    "name": "Air Canada",
+    "code": "AC",
+    "alliance": "Star Alliance",
+    "carryOn": {
+      "dimensions": {
+        "cm": "55x40x23",
+        "in": "21.5x15.5x9"
+      }
+    },
+    "personalItem": {
+      "dimensions": {
+        "cm": "43x33x16",
+        "in": "17x13x6"
+      }
+    },
+    "checked": {
+      "economy": {
+        "pieces": 1,
+        "weight": {
+          "kg": 23.1,
+          "lb": 51
+        },
+        "dimensions": {
+          "cm": "158 total",
+          "in": "62 total"
+        }
+      },
+      "business": {
+        "pieces": 2,
+        "weight": {
+          "kg": 31.7,
+          "lb": 70
+        },
+        "dimensions": {
+          "cm": "158 total",
+          "in": "62 total"
+        }
+      }
+    },
+    "excessFee": null,
+    "website": "https://www.aircanada.com"
+  },
+  {
+    "name": "Air France",
+    "code": "AF",
+    "alliance": "SkyTeam",
+    "carryOn": {
+      "weight": {
+        "kg": 12,
+        "lb": 26
+      },
+      "dimensions": {
+        "cm": "55x35x25",
+        "in": "22x14x9"
+      }
+    },
+    "personalItem": {
+      "dimensions": {
+        "cm": "40x30x15",
+        "in": "16x12x6"
+      }
+    },
+    "checked": {
+      "economy": {
+        "pieces": 1,
+        "weight": {
+          "kg": 23.1,
+          "lb": 51
+        },
+        "dimensions": {
+          "cm": "158 total",
+          "in": "62 total"
+        }
+      },
+      "business": {
+        "pieces": 2,
+        "weight": {
+          "kg": 31.7,
+          "lb": 70
+        },
+        "dimensions": {
+          "cm": "158 total",
+          "in": "62 total"
+        }
+      }
+    },
+    "excessFee": {
+      "currency": "EUR",
+      "amount": 15
+    },
+    "website": "https://www.airfrance.com"
+  },
+  {
+    "name": "Air New Zealand",
+    "code": "NZ",
+    "alliance": "Star Alliance",
+    "carryOn": {
+      "weight": {
+        "kg": 7,
+        "lb": 15.4
+      },
+      "dimensions": {
+        "cm": "55x40x23",
+        "in": "21.7x15.7x9"
+      }
+    },
+    "personalItem": null,
+    "checked": {
+      "economy": {
+        "pieces": 1,
+        "weight": {
+          "kg": 22.7,
+          "lb": 50
+        },
+        "dimensions": {
+          "cm": "158 total",
+          "in": "62 total"
+        }
+      },
+      "business": {
+        "pieces": 2,
+        "weight": {
+          "kg": 22.7,
+          "lb": 50
+        },
+        "dimensions": {
+          "cm": "158 total",
+          "in": "62 total"
+        }
+      }
+    },
+    "excessFee": null,
+    "website": "https://www.airnewzealand.com"
+  },
+  {
+    "name": "Alaska Airlines",
+    "code": "AS",
+    "alliance": "oneworld",
+    "carryOn": {
+      "dimensions": {
+        "cm": "56x36x23",
+        "in": "22x14x9"
+      }
+    },
+    "personalItem": {
+      "dimensions": {
+        "cm": "43x33x20",
+        "in": "17x13x8"
+      }
+    },
+    "checked": {
+      "economy": {
+        "pieces": 1,
+        "weight": {
+          "kg": 22.7,
+          "lb": 50
+        },
+        "dimensions": {
+          "cm": "157 total",
+          "in": "62 total"
+        }
+      },
+      "business": {
+        "pieces": 2,
+        "weight": {
+          "kg": 22.7,
+          "lb": 50
+        },
+        "dimensions": {
+          "cm": "157 total",
+          "in": "62 total"
+        }
+      }
+    },
+    "excessFee": {
+      "currency": "USD",
+      "amount": 35
+    },
+    "website": "https://www.alaskaair.com"
+  },
+  {
+    "name": "American Airlines",
+    "code": "AA",
+    "alliance": "oneworld",
+    "carryOn": {
+      "weight": {
+        "kg": 18,
+        "lb": 40
+      },
+      "dimensions": {
+        "cm": "56x36x23",
+        "in": "22x14x9"
+      }
+    },
+    "personalItem": {
+      "dimensions": {
+        "cm": "45x35x20",
+        "in": "18x14x8"
+      }
+    },
+    "checked": {
+      "economy": {
+        "pieces": 1,
+        "weight": {
+          "kg": 22.7,
+          "lb": 50
+        },
+        "dimensions": {
+          "cm": "158 total",
+          "in": "62 total"
+        }
+      },
+      "business": {
+        "pieces": 2,
+        "weight": {
+          "kg": 31.7,
+          "lb": 70
+        },
+        "dimensions": {
+          "cm": "158 total",
+          "in": "62 total"
+        }
+      }
+    },
+    "excessFee": {
+      "currency": "USD",
+      "amount": 100
+    },
+    "website": "https://www.aa.com"
+  },
+  {
+    "name": "ANA (All Nippon Airways)",
+    "code": "NH",
+    "alliance": "Star Alliance",
+    "carryOn": {
+      "weight": {
+        "kg": 10,
+        "lb": 22
+      },
+      "dimensions": {
+        "cm": "55x40x25",
+        "in": "22x16x10"
+      }
+    },
+    "personalItem": null,
+    "checked": {
+      "economy": {
+        "pieces": 1,
+        "weight": {
+          "kg": 23.1,
+          "lb": 51
+        },
+        "dimensions": {
+          "cm": "158 total",
+          "in": "62 total"
+        }
+      },
+      "business": {
+        "pieces": 2,
+        "weight": {
+          "kg": 31.7,
+          "lb": 70
+        },
+        "dimensions": {
+          "cm": "158 total",
+          "in": "62 total"
+        }
+      }
+    },
+    "excessFee": null,
+    "website": "https://www.ana.co.jp"
+  },
+  {
+    "name": "British Airways",
+    "code": "BA",
+    "alliance": "oneworld",
+    "carryOn": {
+      "weight": {
+        "kg": 23,
+        "lb": 51
+      },
+      "dimensions": {
+        "cm": "56x45x25",
+        "in": "22x18x10"
+      }
+    },
+    "personalItem": {
+      "dimensions": {
+        "cm": "40x30x15",
+        "in": "16x12x6"
+      }
+    },
+    "checked": {
+      "economy": {
+        "pieces": 1,
+        "weight": {
+          "kg": 23.1,
+          "lb": 51
+        },
+        "dimensions": {
+          "cm": "90 total",
+          "in": "35 total"
+        }
+      },
+      "business": {
+        "pieces": 2,
+        "weight": {
+          "kg": 31.7,
+          "lb": 70
+        },
+        "dimensions": {
+          "cm": "90 total",
+          "in": "35 total"
+        }
+      }
+    },
+    "excessFee": {
+      "currency": "GBP",
+      "amount": 65
+    },
+    "website": "https://www.britishairways.com"
+  },
+  {
+    "name": "Cathay Pacific",
+    "code": "CX",
+    "alliance": "oneworld",
+    "carryOn": {
+      "weight": {
+        "kg": 7,
+        "lb": 15
+      },
+      "dimensions": {
+        "cm": "56x36x23",
+        "in": "22x14x9"
+      }
+    },
+    "personalItem": null,
+    "checked": {
+      "economy": {
+        "pieces": 1,
+        "weight": {
+          "kg": 23.1,
+          "lb": 51
+        },
+        "dimensions": {
+          "cm": "158 total",
+          "in": "62 total"
+        }
+      },
+      "business": {
+        "pieces": 2,
+        "weight": {
+          "kg": 31.7,
+          "lb": 70
+        },
+        "dimensions": {
+          "cm": "158 total",
+          "in": "62 total"
+        }
+      }
+    },
+    "excessFee": null,
+    "website": "https://www.cathaypacific.com"
+  },
+  {
+    "name": "China Southern Airlines",
+    "code": "CZ",
+    "alliance": null,
+    "carryOn": {
+      "weight": {
+        "kg": 5,
+        "lb": 11
+      },
+      "dimensions": {
+        "cm": "55x40x20",
+        "in": "21.7x15.7x7.9"
+      }
+    },
+    "personalItem": null,
+    "checked": {
+      "economy": {
+        "pieces": 1,
+        "weight": {
+          "kg": 20,
+          "lb": 44
+        },
+        "dimensions": {
+          "cm": "158 total",
+          "in": "62 total"
+        }
+      },
+      "business": {
+        "pieces": 2,
+        "weight": {
+          "kg": 29.9,
+          "lb": 66
+        },
+        "dimensions": {
+          "cm": "158 total",
+          "in": "62 total"
+        }
+      }
+    },
+    "excessFee": null,
+    "website": "https://www.csair.com/en/"
+  },
+  {
+    "name": "Delta Air Lines",
+    "code": "DL",
+    "alliance": "SkyTeam",
+    "carryOn": {
+      "weight": {
+        "kg": 18,
+        "lb": 40
+      },
+      "dimensions": {
+        "cm": "56x36x23",
+        "in": "22x14x9"
+      }
+    },
+    "personalItem": {
+      "dimensions": {
+        "cm": "43x33x20",
+        "in": "17x13x8"
+      }
+    },
+    "checked": {
+      "economy": {
+        "pieces": 1,
+        "weight": {
+          "kg": 22.7,
+          "lb": 50
+        },
+        "dimensions": {
+          "cm": "158 total",
+          "in": "62 total"
+        }
+      },
+      "business": {
+        "pieces": 2,
+        "weight": {
+          "kg": 31.7,
+          "lb": 70
+        },
+        "dimensions": {
+          "cm": "158 total",
+          "in": "62 total"
+        }
+      }
+    },
+    "excessFee": {
+      "currency": "USD",
+      "amount": 15
+    },
+    "website": "https://www.delta.com"
+  },
+  {
+    "name": "EasyJet",
+    "code": "U2",
+    "alliance": null,
+    "carryOn": {
+      "weight": {
+        "kg": 15,
+        "lb": 33
+      },
+      "dimensions": {
+        "cm": "56x45x25",
+        "in": "22x17.7x9.8"
+      }
+    },
+    "personalItem": {
+      "dimensions": {
+        "cm": "45x36x20",
+        "in": "17.7x14.2x7.9"
+      }
+    },
+    "checked": {
+      "economy": {
+        "pieces": 1,
+        "weight": {
+          "kg": 15,
+          "lb": 33
+        }
+      },
+      "business": {
+        "pieces": 2,
+        "weight": {
+          "kg": 23.1,
+          "lb": 51
+        }
+      }
+    },
+    "excessFee": {
+      "currency": "GBP",
+      "amount": 12
+    },
+    "website": "https://www.easyjet.com"
+  },
+  {
+    "name": "Emirates",
+    "code": "EK",
+    "alliance": null,
+    "carryOn": {
+      "weight": {
+        "kg": 7,
+        "lb": 15
+      },
+      "dimensions": {
+        "cm": "55x38x20",
+        "in": "22x15x8"
+      }
+    },
+    "personalItem": null,
+    "checked": {
+      "economy": {
+        "pieces": 1,
+        "weight": {
+          "kg": 22.7,
+          "lb": 50
+        },
+        "dimensions": {
+          "cm": "158 total",
+          "in": "62 total"
+        }
+      },
+      "business": {
+        "pieces": 2,
+        "weight": {
+          "kg": 31.7,
+          "lb": 70
+        },
+        "dimensions": {
+          "cm": "158 total",
+          "in": "62 total"
+        }
+      }
+    },
+    "excessFee": {
+      "currency": "USD",
+      "amount": 20
+    },
+    "website": "https://www.emirates.com"
+  },
+  {
+    "name": "Etihad Airways",
+    "code": "EY",
+    "alliance": null,
+    "carryOn": {
+      "weight": {
+        "kg": 7,
+        "lb": 15
+      },
+      "dimensions": {
+        "cm": "56x38x20",
+        "in": "22x15x8"
+      }
+    },
+    "personalItem": null,
+    "checked": {
+      "economy": {
+        "pieces": 1,
+        "weight": {
+          "kg": 23.1,
+          "lb": 51
+        },
+        "dimensions": {
+          "cm": "158 total",
+          "in": "62 total"
+        }
+      },
+      "business": {
+        "pieces": 2,
+        "weight": {
+          "kg": 31.7,
+          "lb": 70
+        },
+        "dimensions": {
+          "cm": "158 total",
+          "in": "62 total"
+        }
+      }
+    },
+    "excessFee": null,
+    "website": "https://www.etihad.com"
+  },
+  {
+    "name": "EVA Air",
+    "code": "BR",
+    "alliance": "Star Alliance",
+    "carryOn": {
+      "weight": {
+        "kg": 7,
+        "lb": 15
+      },
+      "dimensions": {
+        "cm": "56x36x23",
+        "in": "22x14x9"
+      }
+    },
+    "personalItem": null,
+    "checked": {
+      "economy": {
+        "pieces": 1,
+        "weight": {
+          "kg": 23.1,
+          "lb": 51
+        },
+        "dimensions": {
+          "cm": "158 total",
+          "in": "62 total"
+        }
+      },
+      "business": {
+        "pieces": 2,
+        "weight": {
+          "kg": 31.7,
+          "lb": 70
+        },
+        "dimensions": {
+          "cm": "158 total",
+          "in": "62 total"
+        }
+      }
+    },
+    "excessFee": null,
+    "website": "https://www.evaair.com"
+  },
+  {
+    "name": "Finnair",
+    "code": "AY",
+    "alliance": "oneworld",
+    "carryOn": {
+      "weight": {
+        "kg": 8,
+        "lb": 17.6
+      },
+      "dimensions": {
+        "cm": "56x40x20",
+        "in": "22x16x8"
+      }
+    },
+    "personalItem": {
+      "dimensions": {
+        "cm": "40x30x15",
+        "in": "16x12x6"
+      }
+    },
+    "checked": {
+      "economy": {
+        "pieces": 1,
+        "weight": {
+          "kg": 23.1,
+          "lb": 51
+        },
+        "dimensions": {
+          "cm": "158 total",
+          "in": "62 total"
+        }
+      },
+      "business": {
+        "pieces": 2,
+        "weight": {
+          "kg": 31.7,
+          "lb": 70
+        },
+        "dimensions": {
+          "cm": "158 total",
+          "in": "62 total"
+        }
+      }
+    },
+    "excessFee": {
+      "currency": "EUR",
+      "amount": 15
+    },
+    "website": "https://www.finnair.com"
+  },
+  {
+    "name": "Flydubai",
+    "code": "FZ",
+    "alliance": null,
+    "carryOn": {
+      "weight": {
+        "kg": 7,
+        "lb": 15.4
+      },
+      "dimensions": {
+        "cm": "55x38x20",
+        "in": "21.7x15x7.9"
+      }
+    },
+    "personalItem": {
+      "dimensions": {
+        "cm": "25x33x20",
+        "in": "9.8x13x7.9"
+      }
+    },
+    "checked": {
+      "economy": {
+        "pieces": 1,
+        "weight": {
+          "kg": 39.9,
+          "lb": 88
+        }
+      },
+      "business": {
+        "pieces": 2,
+        "weight": {
+          "kg": 39.9,
+          "lb": 88
+        }
+      }
+    },
+    "excessFee": null,
+    "website": "https://www.flydubai.com"
+  },
+  {
+    "name": "Hawaiian Airlines",
+    "code": "HA",
+    "alliance": null,
+    "carryOn": {
+      "weight": {
+        "kg": 11,
+        "lb": 25
+      },
+      "dimensions": {
+        "cm": "56x35x23",
+        "in": "22x14x9"
+      }
+    },
+    "personalItem": null,
+    "checked": {
+      "economy": {
+        "pieces": 1,
+        "weight": {
+          "kg": 22.7,
+          "lb": 50
+        }
+      },
+      "business": {
+        "pieces": 2,
+        "weight": {
+          "kg": 22.7,
+          "lb": 50
+        }
+      }
+    },
+    "excessFee": null,
+    "website": "https://www.hawaiianairlines.com"
+  },
+  {
+    "name": "Iberia",
+    "code": "IB",
+    "alliance": "oneworld",
+    "carryOn": {
+      "dimensions": {
+        "cm": "56x40x25",
+        "in": "22x16x10"
+      }
+    },
+    "personalItem": {
+      "dimensions": {
+        "cm": "40x30x15",
+        "in": "16x12x6"
+      }
+    },
+    "checked": {
+      "economy": {
+        "pieces": 1,
+        "weight": {
+          "kg": 23.1,
+          "lb": 51
+        },
+        "dimensions": {
+          "cm": "158 total",
+          "in": "62 total"
+        }
+      },
+      "business": {
+        "pieces": 2,
+        "weight": {
+          "kg": 31.7,
+          "lb": 70
+        },
+        "dimensions": {
+          "cm": "158 total",
+          "in": "62 total"
+        }
+      }
+    },
+    "excessFee": {
+      "currency": "EUR",
+      "amount": 12
+    },
+    "website": "https://www.iberia.com"
+  },
+  {
+    "name": "IndiGo",
+    "code": "6E",
+    "alliance": null,
+    "carryOn": {
+      "weight": {
+        "kg": 7,
+        "lb": 15.4
+      },
+      "dimensions": {
+        "cm": "55x35x25",
+        "in": "21.7x13.7x9.8"
+      }
+    },
+    "personalItem": {
+      "dimensions": {
+        "cm": "45x35x20",
+        "in": "17.7x13.7x7.9"
+      }
+    },
+    "checked": {
+      "economy": {
+        "pieces": 1,
+        "weight": {
+          "kg": 15,
+          "lb": 33
+        },
+        "dimensions": {
+          "cm": "158 total",
+          "in": "62 total"
+        }
+      },
+      "business": {
+        "pieces": 2,
+        "weight": {
+          "kg": 15,
+          "lb": 33
+        },
+        "dimensions": {
+          "cm": "158 total",
+          "in": "62 total"
+        }
+      }
+    },
+    "excessFee": null,
+    "website": "https://www.goindigo.in"
+  },
+  {
+    "name": "Japan Airlines",
+    "code": "JL",
+    "alliance": "oneworld",
+    "carryOn": {
+      "weight": {
+        "kg": 10,
+        "lb": 22
+      },
+      "dimensions": {
+        "cm": "55x40x25",
+        "in": "22x16x10"
+      }
+    },
+    "personalItem": null,
+    "checked": {
+      "economy": {
+        "pieces": 1,
+        "weight": {
+          "kg": 23.1,
+          "lb": 51
+        },
+        "dimensions": {
+          "cm": "203 total",
+          "in": "80 total"
+        }
+      },
+      "business": {
+        "pieces": 2,
+        "weight": {
+          "kg": 31.7,
+          "lb": 70
+        },
+        "dimensions": {
+          "cm": "203 total",
+          "in": "80 total"
+        }
+      }
+    },
+    "excessFee": null,
+    "website": "https://www.jal.com"
+  },
+  {
+    "name": "JetBlue Airways",
+    "code": "B6",
+    "alliance": null,
+    "carryOn": {
+      "dimensions": {
+        "cm": "56x36x23",
+        "in": "22x14x9"
+      }
+    },
+    "personalItem": {
+      "dimensions": {
+        "cm": "43x33x20",
+        "in": "17x13x8"
+      }
+    },
+    "checked": {
+      "economy": {
+        "pieces": 1,
+        "weight": {
+          "kg": 22.7,
+          "lb": 50
+        },
+        "dimensions": {
+          "cm": "157 total",
+          "in": "62 total"
+        }
+      },
+      "business": {
+        "pieces": 2,
+        "weight": {
+          "kg": 22.7,
+          "lb": 50
+        },
+        "dimensions": {
+          "cm": "157 total",
+          "in": "62 total"
+        }
+      }
+    },
+    "excessFee": {
+      "currency": "USD",
+      "amount": 35
+    },
+    "website": "https://www.jetblue.com"
+  },
+  {
+    "name": "KLM Royal Dutch Airlines",
+    "code": "KL",
+    "alliance": "SkyTeam",
+    "carryOn": {
+      "weight": {
+        "kg": 12,
+        "lb": 26
+      },
+      "dimensions": {
+        "cm": "55x35x25",
+        "in": "22x14x10"
+      }
+    },
+    "personalItem": {
+      "dimensions": {
+        "cm": "40x30x15",
+        "in": "16x10x4"
+      }
+    },
+    "checked": {
+      "economy": {
+        "pieces": 1,
+        "weight": {
+          "kg": 23.1,
+          "lb": 51
+        },
+        "dimensions": {
+          "cm": "158 total",
+          "in": "62 total"
+        }
+      },
+      "business": {
+        "pieces": 2,
+        "weight": {
+          "kg": 31.7,
+          "lb": 70
+        },
+        "dimensions": {
+          "cm": "158 total",
+          "in": "62 total"
+        }
+      }
+    },
+    "excessFee": {
+      "currency": "EUR",
+      "amount": 12
+    },
+    "website": "https://www.klm.com"
+  },
+  {
+    "name": "Korean Air",
+    "code": "KE",
+    "alliance": "SkyTeam",
+    "carryOn": {
+      "weight": {
+        "kg": 10,
+        "lb": 22
+      },
+      "dimensions": {
+        "cm": "55x36x22",
+        "in": "22x14x9"
+      }
+    },
+    "personalItem": null,
+    "checked": {
+      "economy": {
+        "pieces": 1,
+        "weight": {
+          "kg": 23.1,
+          "lb": 51
+        },
+        "dimensions": {
+          "cm": "158 total",
+          "in": "62 total"
+        }
+      },
+      "business": {
+        "pieces": 2,
+        "weight": {
+          "kg": 31.7,
+          "lb": 70
+        },
+        "dimensions": {
+          "cm": "158 total",
+          "in": "62 total"
+        }
+      }
+    },
+    "excessFee": null,
+    "website": "https://www.koreanair.com"
+  },
+  {
+    "name": "LATAM Airlines",
+    "code": "LA",
+    "alliance": null,
+    "carryOn": {
+      "weight": {
+        "kg": 8,
+        "lb": 17.6
+      },
+      "dimensions": {
+        "cm": "55x35x25",
+        "in": "21.6x13.7x9.8"
+      }
+    },
+    "personalItem": {
+      "dimensions": {
+        "cm": "45x35x20",
+        "in": "17.7x13.7x7.9"
+      }
+    },
+    "checked": {
+      "economy": {
+        "pieces": 1,
+        "weight": {
+          "kg": 22.7,
+          "lb": 50
+        },
+        "dimensions": {
+          "cm": "158 total",
+          "in": "62 total"
+        }
+      },
+      "business": {
+        "pieces": 2,
+        "weight": {
+          "kg": 22.7,
+          "lb": 50
+        },
+        "dimensions": {
+          "cm": "158 total",
+          "in": "62 total"
+        }
+      }
+    },
+    "excessFee": null,
+    "website": "https://www.latamairlines.com"
+  },
+  {
+    "name": "Lufthansa",
+    "code": "LH",
+    "alliance": "Star Alliance",
+    "carryOn": {
+      "weight": {
+        "kg": 8,
+        "lb": 17.6
+      },
+      "dimensions": {
+        "cm": "55x40x23",
+        "in": "21.7x15.7x9"
+      }
+    },
+    "personalItem": {
+      "dimensions": {
+        "cm": "40x30x10",
+        "in": "15.7x11.8x3.9"
+      }
+    },
+    "checked": {
+      "economy": {
+        "pieces": 1,
+        "weight": {
+          "kg": 23,
+          "lb": 50.7
+        },
+        "dimensions": {
+          "cm": "158 total",
+          "in": "62 total"
+        }
+      },
+      "business": {
+        "pieces": 2,
+        "weight": {
+          "kg": 32,
+          "lb": 70.5
+        },
+        "dimensions": {
+          "cm": "158 total",
+          "in": "62 total"
+        }
+      }
+    },
+    "excessFee": {
+      "currency": "EUR",
+      "amount": 12
+    },
+    "website": "https://www.lufthansa.com"
+  },
+  {
+    "name": "Malaysia Airlines",
+    "code": "MH",
+    "alliance": "oneworld",
+    "carryOn": {
+      "weight": {
+        "kg": 7,
+        "lb": 15
+      },
+      "dimensions": {
+        "cm": "56x36x23",
+        "in": "22x14x9"
+      }
+    },
+    "personalItem": {
+      "dimensions": {
+        "cm": "40x30x15",
+        "in": "16x12x6"
+      }
+    },
+    "checked": {
+      "economy": {
+        "pieces": 1,
+        "weight": {
+          "kg": 20,
+          "lb": 44
+        },
+        "dimensions": {
+          "cm": "158 total",
+          "in": "62 total"
+        }
+      },
+      "business": {
+        "pieces": 2,
+        "weight": {
+          "kg": 39.9,
+          "lb": 88
+        },
+        "dimensions": {
+          "cm": "158 total",
+          "in": "62 total"
+        }
+      }
+    },
+    "excessFee": null,
+    "website": "https://www.malaysiaairlines.com"
+  },
+  {
+    "name": "Norwegian Air Shuttle",
+    "code": "DY",
+    "alliance": null,
+    "carryOn": {
+      "weight": {
+        "kg": 10,
+        "lb": 22
+      },
+      "dimensions": {
+        "cm": "55x40x23",
+        "in": "21.7x15.7x9"
+      }
+    },
+    "personalItem": {
+      "dimensions": {
+        "cm": "30x20x38",
+        "in": "11.8x7.9x15"
+      }
+    },
+    "checked": {
+      "economy": {
+        "pieces": 1,
+        "weight": {
+          "kg": 22.7,
+          "lb": 50
+        }
+      },
+      "business": {
+        "pieces": 2,
+        "weight": {
+          "kg": 22.7,
+          "lb": 50
+        }
+      }
+    },
+    "excessFee": null,
+    "website": "https://www.norwegian.com"
+  },
+  {
+    "name": "Oman Air",
+    "code": "WY",
+    "alliance": "oneworld",
+    "carryOn": {
+      "weight": {
+        "kg": 7,
+        "lb": 15
+      },
+      "dimensions": {
+        "cm": "56x36x23",
+        "in": "22x14x9"
+      }
+    },
+    "personalItem": null,
+    "checked": {
+      "economy": {
+        "pieces": 1,
+        "weight": {
+          "kg": 20,
+          "lb": 44
+        },
+        "dimensions": {
+          "cm": "158 total",
+          "in": "62 total"
+        }
+      },
+      "business": {
+        "pieces": 2,
+        "weight": {
+          "kg": 39.9,
+          "lb": 88
+        },
+        "dimensions": {
+          "cm": "158 total",
+          "in": "62 total"
+        }
+      }
+    },
+    "excessFee": null,
+    "website": "https://www.omanair.com/en"
+  },
+  {
+    "name": "Pegasus Airlines",
+    "code": "PC",
+    "alliance": null,
+    "carryOn": {
+      "weight": {
+        "kg": 8,
+        "lb": 17.6
+      },
+      "dimensions": {
+        "cm": "55x40x20",
+        "in": "21.7x15.7x7.9"
+      }
+    },
+    "personalItem": {
+      "dimensions": {
+        "cm": "40x30x15",
+        "in": "15.7x11.8x5.9"
+      }
+    },
+    "checked": {
+      "economy": {
+        "pieces": 1,
+        "weight": {
+          "kg": 20,
+          "lb": 44
+        }
+      },
+      "business": {
+        "pieces": 2,
+        "weight": {
+          "kg": 20,
+          "lb": 44
+        }
+      }
+    },
+    "excessFee": null,
+    "website": "https://www.flypgs.com"
+  },
+  {
+    "name": "Qantas",
+    "code": "QF",
+    "alliance": "oneworld",
+    "carryOn": {
+      "weight": {
+        "kg": 7,
+        "lb": 15
+      },
+      "dimensions": {
+        "cm": "56x36x23",
+        "in": "22x14x9"
+      }
+    },
+    "personalItem": null,
+    "checked": {
+      "economy": {
+        "pieces": 1,
+        "weight": {
+          "kg": 23.1,
+          "lb": 51
+        },
+        "dimensions": {
+          "cm": "158 total",
+          "in": "62 total"
+        }
+      },
+      "business": {
+        "pieces": 2,
+        "weight": {
+          "kg": 39.9,
+          "lb": 88
+        },
+        "dimensions": {
+          "cm": "158 total",
+          "in": "62 total"
+        }
+      }
+    },
+    "excessFee": null,
+    "website": "https://www.qantas.com"
+  },
+  {
+    "name": "Qatar Airways",
+    "code": "QR",
+    "alliance": "oneworld",
+    "carryOn": {
+      "weight": {
+        "kg": 7,
+        "lb": 15
+      },
+      "dimensions": {
+        "cm": "50x37x25",
+        "in": "20x15x10"
+      }
+    },
+    "personalItem": null,
+    "checked": {
+      "economy": {
+        "pieces": 1,
+        "weight": {
+          "kg": 23.1,
+          "lb": 51
+        },
+        "dimensions": {
+          "cm": "158 total",
+          "in": "62 total"
+        }
+      },
+      "business": {
+        "pieces": 2,
+        "weight": {
+          "kg": 39.9,
+          "lb": 88
+        },
+        "dimensions": {
+          "cm": "158 total",
+          "in": "62 total"
+        }
+      }
+    },
+    "excessFee": {
+      "currency": "USD",
+      "amount": 25
+    },
+    "website": "https://www.qatarairways.com"
+  },
+  {
+    "name": "Ryanair",
+    "code": "FR",
+    "alliance": null,
+    "carryOn": {
+      "weight": {
+        "kg": 10,
+        "lb": 22
+      },
+      "dimensions": {
+        "cm": "55x40x20",
+        "in": "22x16x8"
+      }
+    },
+    "personalItem": {
+      "dimensions": {
+        "cm": "40x25x20",
+        "in": "16x10x8"
+      }
+    },
+    "checked": {
+      "economy": {
+        "pieces": 1,
+        "weight": {
+          "kg": 10,
+          "lb": 22
+        },
+        "dimensions": {
+          "cm": "81 total",
+          "in": "32 total"
+        }
+      },
+      "business": {
+        "pieces": 2,
+        "weight": {
+          "kg": 20,
+          "lb": 44
+        },
+        "dimensions": {
+          "cm": "81 total",
+          "in": "32 total"
+        }
+      }
+    },
+    "excessFee": null,
+    "website": "https://www.ryanair.com"
+  },
+  {
+    "name": "SAS Scandinavian Airlines",
+    "code": "SK",
+    "alliance": "SkyTeam",
+    "carryOn": {
+      "weight": {
+        "kg": 8,
+        "lb": 17.6
+      },
+      "dimensions": {
+        "cm": "55x40x23",
+        "in": "22x16x9"
+      }
+    },
+    "personalItem": {
+      "dimensions": {
+        "cm": "40x30x15",
+        "in": "16x12x6"
+      }
+    },
+    "checked": {
+      "economy": {
+        "pieces": 1,
+        "weight": {
+          "kg": 31.7,
+          "lb": 70
+        },
+        "dimensions": {
+          "cm": "158 total",
+          "in": "62 total"
+        }
+      },
+      "business": {
+        "pieces": 2,
+        "weight": {
+          "kg": 31.7,
+          "lb": 70
+        },
+        "dimensions": {
+          "cm": "158 total",
+          "in": "62 total"
+        }
+      }
+    },
+    "excessFee": null,
+    "website": "https://www.flysas.com"
+  },
+  {
+    "name": "Saudia",
+    "code": "SV",
+    "alliance": "SkyTeam",
+    "carryOn": {
+      "weight": {
+        "kg": 7,
+        "lb": 15
+      },
+      "dimensions": {
+        "cm": "56x45x25",
+        "in": "22x18x10"
+      }
+    },
+    "personalItem": {
+      "dimensions": {
+        "cm": "45x35x20",
+        "in": "18x14x8"
+      }
+    },
+    "checked": {
+      "economy": {
+        "pieces": 1,
+        "dimensions": {
+          "cm": "158 total",
+          "in": "62 total"
+        }
+      },
+      "business": {
+        "pieces": 2,
+        "dimensions": {
+          "cm": "158 total",
+          "in": "62 total"
+        }
+      }
+    },
+    "excessFee": null,
+    "website": "https://www.saudia.com"
+  },
+  {
+    "name": "Singapore Airlines",
+    "code": "SQ",
+    "alliance": "Star Alliance",
+    "carryOn": {
+      "weight": {
+        "kg": 7,
+        "lb": 15
+      },
+      "dimensions": {
+        "cm": "55x36x23",
+        "in": "22x14x9"
+      }
+    },
+    "personalItem": null,
+    "checked": {
+      "economy": {
+        "pieces": 1,
+        "weight": {
+          "kg": 24.9,
+          "lb": 55
+        },
+        "dimensions": {
+          "cm": "158 total",
+          "in": "62 total"
+        }
+      },
+      "business": {
+        "pieces": 2,
+        "weight": {
+          "kg": 39.9,
+          "lb": 88
+        },
+        "dimensions": {
+          "cm": "158 total",
+          "in": "62 total"
+        }
+      }
+    },
+    "excessFee": null,
+    "website": "https://www.singaporeair.com"
+  },
+  {
+    "name": "Southwest Airlines",
+    "code": "WN",
+    "alliance": null,
+    "carryOn": {
+      "dimensions": {
+        "cm": "61x41x25",
+        "in": "24x16x10"
+      }
+    },
+    "personalItem": {
+      "dimensions": {
+        "cm": "47x22x34",
+        "in": "18.5x8.5x13.5"
+      }
+    },
+    "checked": {
+      "economy": {
+        "pieces": 1,
+        "weight": {
+          "kg": 22.7,
+          "lb": 50
+        },
+        "dimensions": {
+          "cm": "157 total",
+          "in": "62 total"
+        }
+      },
+      "business": {
+        "pieces": 2,
+        "dimensions": {
+          "cm": "157 total",
+          "in": "62 total"
+        }
+      }
+    },
+    "excessFee": {
+      "currency": "USD",
+      "amount": 75
+    },
+    "website": "https://www.southwest.com"
+  },
+  {
+    "name": "Spirit Airlines",
+    "code": "NK",
+    "alliance": null,
+    "carryOn": {
+      "dimensions": {
+        "cm": "56x46x25",
+        "in": "22x18x10"
+      }
+    },
+    "personalItem": {
+      "dimensions": {
+        "cm": "45x35x20",
+        "in": "18x14x8"
+      }
+    },
+    "checked": {
+      "economy": {
+        "pieces": 1,
+        "weight": {
+          "kg": 22.7,
+          "lb": 50
+        },
+        "dimensions": {
+          "cm": "158 total",
+          "in": "62 total"
+        }
+      },
+      "business": {
+        "pieces": 2,
+        "dimensions": {
+          "cm": "158 total",
+          "in": "62 total"
+        }
+      }
+    },
+    "excessFee": null,
+    "website": "https://www.spirit.com"
+  },
+  {
+    "name": "Swiss International Air Lines",
+    "code": "LX",
+    "alliance": "Star Alliance",
+    "carryOn": {
+      "weight": {
+        "kg": 8,
+        "lb": 17.6
+      },
+      "dimensions": {
+        "cm": "55x40x23",
+        "in": "22x16x9"
+      }
+    },
+    "personalItem": {
+      "dimensions": {
+        "cm": "40x30x10",
+        "in": "16x12x4"
+      }
+    },
+    "checked": {
+      "economy": {
+        "pieces": 1,
+        "weight": {
+          "kg": 23.1,
+          "lb": 51
+        },
+        "dimensions": {
+          "cm": "158 total",
+          "in": "62 total"
+        }
+      },
+      "business": {
+        "pieces": 2,
+        "weight": {
+          "kg": 31.7,
+          "lb": 70
+        },
+        "dimensions": {
+          "cm": "158 total",
+          "in": "62 total"
+        }
+      }
+    },
+    "excessFee": null,
+    "website": "https://www.swiss.com"
+  },
+  {
+    "name": "TAP Air Portugal",
+    "code": "TP",
+    "alliance": "Star Alliance",
+    "carryOn": {
+      "weight": {
+        "kg": 10,
+        "lb": 22
+      },
+      "dimensions": {
+        "cm": "55x40x20",
+        "in": "21.7x15.7x7.9"
+      }
+    },
+    "personalItem": {
+      "dimensions": {
+        "cm": "40x30x15",
+        "in": "15.7x11.8x5.9"
+      }
+    },
+    "checked": {
+      "economy": {
+        "pieces": 1,
+        "weight": {
+          "kg": 22.7,
+          "lb": 50
+        },
+        "dimensions": {
+          "cm": "158 total",
+          "in": "62 total"
+        }
+      },
+      "business": {
+        "pieces": 2,
+        "weight": {
+          "kg": 31.7,
+          "lb": 70
+        },
+        "dimensions": {
+          "cm": "158 total",
+          "in": "62 total"
+        }
+      }
+    },
+    "excessFee": null,
+    "website": "https://www.flytap.com"
+  },
+  {
+    "name": "Thai Airways",
+    "code": "TG",
+    "alliance": "Star Alliance",
+    "carryOn": {
+      "weight": {
+        "kg": 7,
+        "lb": 15
+      },
+      "dimensions": {
+        "cm": "56x45x25",
+        "in": "22x18x10"
+      }
+    },
+    "personalItem": null,
+    "checked": {
+      "economy": {
+        "pieces": 1,
+        "weight": {
+          "kg": 29.9,
+          "lb": 66
+        },
+        "dimensions": {
+          "cm": "158 total",
+          "in": "62 total"
+        }
+      },
+      "business": {
+        "pieces": 2,
+        "weight": {
+          "kg": 39.9,
+          "lb": 88
+        },
+        "dimensions": {
+          "cm": "158 total",
+          "in": "62 total"
+        }
+      }
+    },
+    "excessFee": null,
+    "website": "https://www.thaiairways.com"
+  },
+  {
+    "name": "Turkish Airlines",
+    "code": "TK",
+    "alliance": "Star Alliance",
+    "carryOn": {
+      "weight": {
+        "kg": 8,
+        "lb": 17.6
+      },
+      "dimensions": {
+        "cm": "55x40x23",
+        "in": "21.7x15.7x9"
+      }
+    },
+    "personalItem": {
+      "dimensions": {
+        "cm": "40x30x15",
+        "in": "15.7x11.8x5.9"
+      }
+    },
+    "checked": {
+      "economy": {
+        "pieces": 1,
+        "weight": {
+          "kg": 23,
+          "lb": 50.7
+        },
+        "dimensions": {
+          "cm": "158 total",
+          "in": "62 total"
+        }
+      },
+      "business": {
+        "pieces": 2,
+        "weight": {
+          "kg": 32,
+          "lb": 70.6
+        },
+        "dimensions": {
+          "cm": "158 total",
+          "in": "62 total"
+        }
+      }
+    },
+    "excessFee": {
+      "currency": "USD",
+      "amount": 8
+    },
+    "website": "https://www.turkishairlines.com"
+  },
+  {
+    "name": "United Airlines",
+    "code": "UA",
+    "alliance": "Star Alliance",
+    "carryOn": {
+      "weight": {
+        "kg": 18,
+        "lb": 40
+      },
+      "dimensions": {
+        "cm": "56x36x23",
+        "in": "22x14x9"
+      }
+    },
+    "personalItem": {
+      "dimensions": {
+        "cm": "43x25x23",
+        "in": "17x10x9"
+      }
+    },
+    "checked": {
+      "economy": {
+        "pieces": 1,
+        "weight": {
+          "kg": 22.7,
+          "lb": 50
+        },
+        "dimensions": {
+          "cm": "158 total",
+          "in": "62 total"
+        }
+      },
+      "business": {
+        "pieces": 2,
+        "weight": {
+          "kg": 31.7,
+          "lb": 70
+        },
+        "dimensions": {
+          "cm": "158 total",
+          "in": "62 total"
+        }
+      }
+    },
+    "excessFee": {
+      "currency": "USD",
+      "amount": 15
+    },
+    "website": "https://www.united.com"
+  },
+  {
+    "name": "Virgin Atlantic",
+    "code": "VS",
+    "alliance": "SkyTeam",
+    "carryOn": {
+      "weight": {
+        "kg": 10,
+        "lb": 22
+      },
+      "dimensions": {
+        "cm": "58x36x23",
+        "in": "23x14x9"
+      }
+    },
+    "personalItem": {
+      "dimensions": {
+        "cm": "45x36x20",
+        "in": "18x14x8"
+      }
+    },
+    "checked": {
+      "economy": {
+        "pieces": 1,
+        "weight": {
+          "kg": 23.1,
+          "lb": 51
+        },
+        "dimensions": {
+          "cm": "229 total",
+          "in": "90 total"
+        }
+      },
+      "business": {
+        "pieces": 2,
+        "weight": {
+          "kg": 23.1,
+          "lb": 51
+        },
+        "dimensions": {
+          "cm": "229 total",
+          "in": "90 total"
+        }
+      }
+    },
+    "excessFee": {
+      "currency": "GBP",
+      "amount": 65
+    },
+    "website": "https://www.virginatlantic.com"
+  },
+  {
+    "name": "Vueling",
+    "code": "VY",
+    "alliance": null,
+    "carryOn": {
+      "weight": {
+        "kg": 10,
+        "lb": 22
+      },
+      "dimensions": {
+        "cm": "55x40x20",
+        "in": "21.7x15.7x7.9"
+      }
+    },
+    "personalItem": {
+      "dimensions": {
+        "cm": "40x30x20",
+        "in": "15.7x11.8x7.9"
+      }
+    },
+    "checked": {
+      "economy": {
+        "pieces": 1,
+        "dimensions": {
+          "cm": "158 total",
+          "in": "62 total"
+        }
+      },
+      "business": {
+        "pieces": 2,
+        "dimensions": {
+          "cm": "158 total",
+          "in": "62 total"
+        }
+      }
+    },
+    "excessFee": null,
+    "website": "https://www.vueling.com/en"
+  },
+  {
+    "name": "Wizz Air",
+    "code": "W6",
+    "alliance": null,
+    "carryOn": {
+      "weight": {
+        "kg": 10,
+        "lb": 22
+      },
+      "dimensions": {
+        "cm": "55x40x23",
+        "in": "21.7x15.7x9"
+      }
+    },
+    "personalItem": {
+      "dimensions": {
+        "cm": "40x30x20",
+        "in": "15.7x11.8x7.9"
+      }
+    },
+    "checked": {
+      "economy": {
+        "pieces": 1,
+        "weight": {
+          "kg": 10,
+          "lb": 22
+        }
+      },
+      "business": {
+        "pieces": 2,
+        "weight": {
+          "kg": 20,
+          "lb": 44
+        }
+      }
+    },
+    "excessFee": {
+      "currency": "EUR",
+      "amount": 9
+    },
+    "website": "https://www.wizzair.com"
+  }
+]

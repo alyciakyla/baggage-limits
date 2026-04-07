@@ -1,0 +1,19 @@
+{
+  "airline": "Fluggesellschaft",
+  "code": "Code",
+  "alliance": "Allianz",
+  "carryOn": "Handgepäck",
+  "personalItem": "Persönlicher Gegenstand",
+  "checked": "Aufgegebenes Gepäck",
+  "economy": "Economy",
+  "business": "Business",
+  "weight": "Gewicht",
+  "dimensions": "Abmessungen",
+  "pieces": "Stücke",
+  "excessFee": "Übergepäckgebühr",
+  "website": "Webseite",
+  "noData": "Keine Daten verfügbar",
+  "notFound": "Fluggesellschaft nicht gefunden",
+  "searchResults": "Suchergebnisse",
+  "allAirlines": "Alle Fluggesellschaften"
+}

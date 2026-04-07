@@ -1,0 +1,19 @@
+{
+  "airline": "Airline",
+  "code": "Code",
+  "alliance": "Alliance",
+  "carryOn": "Carry-on",
+  "personalItem": "Personal Item",
+  "checked": "Checked Baggage",
+  "economy": "Economy",
+  "business": "Business",
+  "weight": "Weight",
+  "dimensions": "Dimensions",
+  "pieces": "Pieces",
+  "excessFee": "Excess Fee",
+  "website": "Website",
+  "noData": "No data available",
+  "notFound": "Airline not found",
+  "searchResults": "Search Results",
+  "allAirlines": "All Airlines"
+}

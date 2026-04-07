@@ -1,0 +1,19 @@
+{
+  "airline": "Compagnie Aérienne",
+  "code": "Code",
+  "alliance": "Alliance",
+  "carryOn": "Bagage Cabine",
+  "personalItem": "Article Personnel",
+  "checked": "Bagage Enregistré",
+  "economy": "Économie",
+  "business": "Business",
+  "weight": "Poids",
+  "dimensions": "Dimensions",
+  "pieces": "Pièces",
+  "excessFee": "Frais de Surcharge",
+  "website": "Site Web",
+  "noData": "Aucune donnée disponible",
+  "notFound": "Compagnie aérienne introuvable",
+  "searchResults": "Résultats de Recherche",
+  "allAirlines": "Toutes les Compagnies"
+}

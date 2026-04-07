@@ -1,0 +1,19 @@
+{
+  "airline": "Aerolínea",
+  "code": "Código",
+  "alliance": "Alianza",
+  "carryOn": "Equipaje de Mano",
+  "personalItem": "Artículo Personal",
+  "checked": "Equipaje Facturado",
+  "economy": "Economía",
+  "business": "Business",
+  "weight": "Peso",
+  "dimensions": "Dimensiones",
+  "pieces": "Piezas",
+  "excessFee": "Cargo por Exceso",
+  "website": "Sitio Web",
+  "noData": "No hay datos disponibles",
+  "notFound": "Aerolínea no encontrada",
+  "searchResults": "Resultados de Búsqueda",
+  "allAirlines": "Todas las Aerolíneas"
+}

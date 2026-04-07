@@ -1,0 +1,19 @@
+{
+  "airline": "Havayolu",
+  "code": "Kod",
+  "alliance": "İttifak",
+  "carryOn": "Kabin Bagajı",
+  "personalItem": "Kişisel Eşya",
+  "checked": "Kayıtlı Bagaj",
+  "economy": "Ekonomi",
+  "business": "Business",
+  "weight": "Ağırlık",
+  "dimensions": "Boyutlar",
+  "pieces": "Parça",
+  "excessFee": "Fazla Bagaj Ücreti",
+  "website": "Web Sitesi",
+  "noData": "Veri mevcut değil",
+  "notFound": "Havayolu bulunamadı",
+  "searchResults": "Arama Sonuçları",
+  "allAirlines": "Tüm Havayolları"
+}
